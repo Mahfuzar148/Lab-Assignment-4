@@ -14,7 +14,8 @@ Solution:
 /*
 Super class
  */
-public class Clock {
+public class Clock
+{
     String AlarmHour;
     String AlarmMinute;
 
@@ -47,7 +48,8 @@ public class Clock {
 /*
 Sub-class
 */
-public class WordClock extends Clock {
+public class WordClock extends Clock
+{
     int timeZone=0;
 
     public WordClock(int timeZone) {
@@ -69,7 +71,8 @@ public class WordClock extends Clock {
  **/
  
  import java.util.Scanner;
-public class Runner {
+public class Runner
+{
     public static void main(String[]args)
     {
         Clock MyClock=new Clock();
